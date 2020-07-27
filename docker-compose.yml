@@ -9,7 +9,7 @@ services:
       - app-network
   db:
     image: mongo:4.2
-    container_name: mongo
+    container_name: ac-mongo
     ports:
       - "3333:27017"
     volumes:
